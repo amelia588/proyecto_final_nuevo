@@ -2,13 +2,10 @@ from tkinter import *
 
 root=Tk()
 
-miFrame=Frame(root,width=500, height=400)
-
+miFrame=Frame(width=1200,height=600)
 miFrame.pack()
 
-miLabel=Label(miFrame, text="El tornillo Feliz")
-
-miLabel.pack()
-
+cuadrotexto=Entry(miFrame)
+cuadrotexto.place(x=100, y=100)
 
 root.mainloop()
