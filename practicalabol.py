@@ -8,4 +8,7 @@ miFrame.pack()
 cuadrotexto=Entry(miFrame)
 cuadrotexto.place(x=100, y=100)
 
+DNILabel=Label(miFrame, text="DNI")
+DNILabel.place(x=100 , y=100)
+
 root.mainloop()
