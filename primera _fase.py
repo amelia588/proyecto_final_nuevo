@@ -16,10 +16,14 @@ raiz.config(bg="pink")
 
 miFrame=Frame()
 
-miFrame.pack()
+miFrame.pack(fill="y")
 
 miFrame.config(bg="yellow")
 
 miFrame.config(width="650",height="350")
+
+miFrame.config(bd=35)
+
+miFrame.config(relief="groove")
 
 raiz.mainloop()
