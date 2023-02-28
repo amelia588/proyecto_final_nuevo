@@ -7,6 +7,7 @@ miFrame.pack()
 
 cuadroDNI=Entry(miFrame)
 cuadroDNI.grid(row=0, column=1, padx=10, pady=10)
+cuadroDNI.config(fg="blue")
 
 cuadroApellido=Entry(miFrame)
 cuadroApellido.grid(row=1, column=1, padx=10, pady=10)
@@ -28,5 +29,8 @@ DirecciónLabel.grid(row=2, column=0, sticky="w", padx=10, pady=10)
 
 TeléfonoLabel=Label(miFrame, text="Teléfono:")
 TeléfonoLabel.grid(row=3, column=0, sticky="w", padx=10, pady=10)
+
+cod_prodLabel=Label(miFrame, text="cod_prod:")
+cod_prodLabel.grid(row=4, column=0, sticky="w", padx=10, pady=10)
 
 root.mainloop()
