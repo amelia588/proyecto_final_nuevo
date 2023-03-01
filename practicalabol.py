@@ -60,10 +60,24 @@ DescripciónLabel.grid(row=4, column=1, sticky="ew", padx=10, pady=10)
 Descripción=Entry(miFrame, width=7, state="readonly")
 Descripción.grid(row=5, column=1, padx=10, pady=10)
 
-cod_prod=Entry(miFrame, width=7, state="readonly")
-cod_prod.grid(row=6, column=1, padx=10, pady=10)
+Descripión=Entry(miFrame, width=7, state="readonly")
+Descripión.grid(row=6, column=1, padx=10, pady=10)
 
-cod_prod=Entry(miFrame, width=7, state="readonly")
-cod_prod.grid(row=7, column=1, padx=10, pady=10)
+Descripción=Entry(miFrame, width=7, state="readonly")
+Descripción.grid(row=7, column=1, padx=10, pady=10)
+
+UnidadLabel=Label(miFrame,text="Unidad")
+UnidadLabel.grid(row=4, column=2, sticky="ew", padx=10, pady=10)
+
+Unidad=Entry(miFrame, width=7, state="readonly")
+Unidad.grid(row=5, column=2, padx=10, pady=10)
+
+Unidad=Entry(miFrame, width=7, state="readonly")
+Unidad.grid(row=6, column=2, padx=10, pady=10)
+
+Unidad=Entry(miFrame, width=7, state="readonly")
+Unidad.grid(row=7, column=2, padx=10, pady=10)
+
+
 
 root.mainloop()
