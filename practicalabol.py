@@ -54,4 +54,16 @@ cod_prod.grid(row=6, column=0, padx=10, pady=10)
 cod_prod=Entry(miFrame, width=7)
 cod_prod.grid(row=7, column=0, padx=10, pady=10)
 
+DescripciónLabel=Label(miFrame,text="Descripción")
+DescripciónLabel.grid(row=4, column=1, sticky="ew", padx=10, pady=10)
+
+Descripción=Entry(miFrame, width=7, state="readonly")
+Descripción.grid(row=5, column=1, padx=10, pady=10)
+
+cod_prod=Entry(miFrame, width=7, state="readonly")
+cod_prod.grid(row=6, column=1, padx=10, pady=10)
+
+cod_prod=Entry(miFrame, width=7, state="readonly")
+cod_prod.grid(row=7, column=1, padx=10, pady=10)
+
 root.mainloop()
