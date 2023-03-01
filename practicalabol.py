@@ -3,6 +3,9 @@ from tkinter import *
 root=Tk()
 root.title('Ferreteria el tornillo feliz')
 
+miFrame=Frame(root)
+miFrame.pack()
+
 miFrame=Frame( root, width=1200, height=600)
 miFrame.pack()
 
@@ -38,7 +41,17 @@ DirecciónLabel.grid(row=2, column=0, sticky="w", padx=10, pady=10)
 TeléfonoLabel=Label(miFrame, text="Teléfono:")
 TeléfonoLabel.grid(row=3, column=0, sticky="w", padx=10, pady=10)
 
-cod_prodLabel=Label(miFrame, text="cod_prod:")
-cod_prodLabel.grid(row=4, column=0, sticky="w", padx=10, pady=10)
+
+cod_prodLabel=Label(miFrame,text="cod_prod")
+cod_prodLabel.grid(row=4, column=0, sticky="e", padx=10, pady=10)
+
+cod_prod=Entry(miFrame, width=7)
+cod_prod.grid(row=5, column=0, padx=10, pady=10)
+
+cod_prod=Entry(miFrame, width=7)
+cod_prod.grid(row=6, column=0, padx=10, pady=10)
+
+cod_prod=Entry(miFrame, width=7)
+cod_prod.grid(row=7, column=0, padx=10, pady=10)
 
 root.mainloop()
