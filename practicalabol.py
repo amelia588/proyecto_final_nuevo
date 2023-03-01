@@ -1,8 +1,9 @@
 from tkinter import *
 
 root=Tk()
+root.title('Ferreteria el tornillo feliz')
 
-miFrame=Frame(width=1200,height=600)
+miFrame=Frame( root, width=1200, height=600)
 miFrame.pack()
 
 cuadroDNI=Entry(miFrame)
@@ -12,17 +13,24 @@ cuadroDNI.config(fg="blue")
 cuadroApellido=Entry(miFrame)
 cuadroApellido.grid(row=1, column=1, padx=10, pady=10)
 
+cuadroNombre=Entry(miFrame)
+cuadroNombre.grid(row=1, column=2, padx=10, pady=10)
+
 cuadroDirección=Entry(miFrame)
-cuadroDirección.grid(row=2, column=1, padx=10, pady=10)
+cuadroDirección.grid(row=2, column=1,columnspan=3,sticky="we",  padx=10, pady=10)
 
 cuadroTeléfono=Entry(miFrame)
-cuadroTeléfono.grid(row=3, column=1, padx=10, pady=10)
+cuadroTeléfono.grid(row=3, column=1, columnspan=3,sticky="we", padx=10, pady=10)
 
 DNILabel=Label(miFrame, text="DNI:")
 DNILabel.grid(row=0, column=0, sticky="w", padx=10, pady=10)
 
 ApellidoLabel=Label(miFrame, text="Apellido:")
 ApellidoLabel.grid(row=1, column=0, sticky="w", padx=10, pady=10)
+
+NombreLabel=Label(miFrame, text="Nombre:")
+NombreLabel.grid(row=1, column=2, sticky="w", padx=10, pady=10)
+
 
 DirecciónLabel=Label(miFrame, text="Dirección:")
 DirecciónLabel.grid(row=2, column=0, sticky="w", padx=10, pady=10)
