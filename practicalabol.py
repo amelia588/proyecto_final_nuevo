@@ -78,6 +78,48 @@ Unidad.grid(row=6, column=2, padx=10, pady=10)
 Unidad=Entry(miFrame, width=7, state="readonly")
 Unidad.grid(row=7, column=2, padx=10, pady=10)
 
+CantidadLabel=Label(miFrame,text="Cantidad")
+CantidadLabel.grid(row=4, column=3, sticky="ew", padx=10, pady=10)
+
+Cantidad=Entry(miFrame, width=7)
+Cantidad.grid(row=5, column=3, padx=10, pady=10)
+
+Cantidad=Entry(miFrame, width=7)
+Cantidad.grid(row=6, column=3, padx=10, pady=10)
+
+Cantidad=Entry(miFrame, width=7)
+Cantidad.grid(row=7, column=3, padx=10, pady=10)
+
+PrecioLabel=Label(miFrame,text="Precio")
+PrecioLabel.grid(row=4, column=4, sticky="ew", padx=10, pady=10)
+
+Precio=Entry(miFrame, width=7, state="readonly")
+Precio.grid(row=5, column=4, padx=10, pady=10)
+
+Precio=Entry(miFrame, width=7, state="readonly")
+Precio.grid(row=6, column=4, padx=10, pady=10)
+
+Precio=Entry(miFrame, width=7, state="readonly")
+Precio.grid(row=7, column=4, padx=10, pady=10)
+
+SubtotalLabel=Label(miFrame,text="Subtotal")
+SubtotalLabel.grid(row=4, column=5, sticky="ew", padx=10, pady=10)
+
+Subtotal=Entry(miFrame, width=7, state="readonly")
+Subtotal.grid(row=5, column=5, padx=10, pady=10)
+
+Subtotal=Entry(miFrame, width=7, state="readonly")
+Subtotal.grid(row=6, column=5, padx=10, pady=10)
+
+Subtotal=Entry(miFrame, width=7, state="readonly")
+Subtotal.grid(row=7, column=5, padx=10, pady=10)
+
+
+
+
+
+
+
 
 
 root.mainloop()
