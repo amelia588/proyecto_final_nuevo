@@ -17,7 +17,7 @@ cuadroApellido=Entry(miFrame)
 cuadroApellido.grid(row=1, column=1, padx=10, pady=10)
 
 cuadroNombre=Entry(miFrame)
-cuadroNombre.grid(row=1, column=2, padx=10, pady=10)
+cuadroNombre.grid(row=1, column=3, padx=10, pady=10)
 
 cuadroDirección=Entry(miFrame)
 cuadroDirección.grid(row=2, column=1,columnspan=3,sticky="we",  padx=10, pady=10)
